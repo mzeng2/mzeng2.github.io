@@ -235,8 +235,8 @@ body {
 body {
     margin: 0;
     color: #000000;
-    font-size: 15px;
-    line-height: 1.6;
+    font-size: 20px;
+    line-height: 1.8;
     background-color: rgb(250, 248, 241);
     font-family: 'sourcesanspro', 'Helvetica Neue', Arial, sans-serif
 }
@@ -373,7 +373,7 @@ header .nav-list-item a {
 
 .archive .post-time,
 .archive .post-title-link {
-    font-size: 1rem
+    font-size: 1.2rem
 }
 
 .archive .post-title-link {
@@ -391,7 +391,7 @@ header .nav-list-item a {
 
 .archive .post-info {
     float: left;
-    width: 125px;
+    width: 150px;
     color: #050505
 }
 
@@ -400,14 +400,14 @@ header .nav-list-item a {
 }
 
 .post-block .post-title {
-    margin: 0.65em 0;
+    margin: 0.1em 0;
     color: #060606;
     font-size: 1.5em
 }
 
 .post-block .post-info {
-    color: rgb(127, 140, 141); /* 日期字体颜色 */
-    margin: 1.2em 0
+    color: rgb(117, 129, 129);
+    margin: 0.1em 0
 }
 
 .post-block .post-info span {

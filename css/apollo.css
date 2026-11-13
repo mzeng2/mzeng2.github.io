@@ -307,11 +307,25 @@ table tbody td {
 }
 
 header {
-    min-height: 60px
+    min-height: 60px;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 header .logo-link {
     float: left
+}
+
+header .logo-link .logo-link {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #000000;
+    letter-spacing: 1px;
+    vertical-align: top
 }
 
 header .nav {
